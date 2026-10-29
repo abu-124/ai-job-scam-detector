@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Job Scam Detector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="card">
+    <h2>🛡️ AI Scam Detector</h2>
+    <p class="subtitle">Cloud AI Recruitment Protection</p>
+
+    <button id="scanBtn" class="primary-btn">🤖 Analyze Page with AI</button>
+
+    <div id="statusContainer" class="status-box hidden">
+      <span id="statusBadge" class="badge safe">Checking...</span>
+      <p id="statusDetails">Scanning page content...</p>
+    </div>
+
+    <div class="tips-section">
+      <h3>⚠️ High-Risk Red Flags</h3>
+      <ul>
+        <li>Upfront registration/training fees</li>
+        <li>Wire transfer requirements</li>
+        <li>HR using personal Gmail/Yahoo addresses</li>
+        <li>Chat-only hiring (Telegram / WhatsApp)</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
